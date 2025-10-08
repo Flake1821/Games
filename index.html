@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neon Arena - 3D Shooter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="hud">
+      <h1>Neon Arena</h1>
+      <div class="stats">
+        <span id="score">Score: 0</span>
+        <span id="health">Health: 100</span>
+        <span id="wave">Wave: 1</span>
+      </div>
+      <p>Move with <strong>WASD</strong>, sprint with <strong>Shift</strong>, and look with your mouse.</p>
+      <p>Click to lock the pointer and shoot lasers. Survive as many waves as possible!</p>
+    </div>
+
+    <div id="overlay" class="visible">
+      <div class="overlay-content">
+        <h2>Click to Start</h2>
+        <p>Defend the arena by blasting the incoming drones. Good luck, pilot!</p>
+        <button id="start">Enter the Arena</button>
+      </div>
+    </div>
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
