@@ -21,6 +21,14 @@ python3 -m http.server 8000
 
 Then open <http://localhost:8000> in your browser and click **Enter the Arena**.
 
+## Testing the Game Locally
+
+1. Start a static server (for example with `python3 -m http.server 8000` as shown above).
+2. Visit <http://localhost:8000> in a modern desktop browser such as Chrome, Edge, or Firefox.
+3. Click the **Enter the Arena** button and grant the pointer-lock permission when prompted.
+4. Use the controls below to move and shoot. The heads-up display (HUD) will show your score, health, and the current wave.
+5. Refresh the page to restart the session.
+
 > **Tip:** The game relies on the Pointer Lock API. Your browser will ask for permission the first time you click the play button.
 
 ## Controls
